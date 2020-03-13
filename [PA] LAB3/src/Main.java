@@ -21,13 +21,17 @@ public class Main {
         Greedy greedy = new Greedy(items,knapsack);
         System.out.println(greedy);
 
-        //Dynamic dynamic =new Dynamic(items,knapsack);
-        //System.out.println(dynamic);
+        Dynamic dynamic= new Dynamic(items,knapsack);
+        System.out.println(dynamic);
+
+
 
         Knapsack knapsack1 = new Knapsack();
         List<Item> items1 = new ArrayList<>();
         Generator generator=new Generator(items1,knapsack1);
         System.out.println(knapsack1);
+
+
 
     }
 
